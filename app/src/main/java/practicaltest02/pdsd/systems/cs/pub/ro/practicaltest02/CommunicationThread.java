@@ -94,6 +94,7 @@ public class CommunicationThread extends Thread{
                 }
 
                 messageBodyHttp = new MessageBodyHttp(html);
+                serverThread.setData(url,messageBodyHttp);
 
             }
 
